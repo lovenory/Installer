@@ -16,7 +16,7 @@ const ReleaseUrlFallback = "https://api.github.com/repos/lovenory/Vencord/releas
 const InstallerReleaseUrl = "https://api.github.com/repos/lovenory/Installer/releases/latest"
 const InstallerReleaseUrlFallback = "https://api.github.com/repos/lovenory/Installer/releases/latest"
 
-var UserAgent = "VencordInstaller/" + buildinfo.InstallerGitHash + " (https://github.com/Vencord/Installer)"
+var UserAgent = "VencordInstaller/" + buildinfo.InstallerGitHash + " (https://github.com/Installer/Installer)"
 
 var (
 	DiscordGreen  = color.RGBA{R: 0x2D, G: 0x7C, B: 0x46, A: 0xFF}
