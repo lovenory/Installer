@@ -11,10 +11,10 @@ import (
 	"vencordinstaller/buildinfo"
 )
 
-const ReleaseUrl = "https://api.github.com/repos/Vendicated/Vencord/releases/latest"
-const ReleaseUrlFallback = "https://vencord.dev/releases/vencord"
-const InstallerReleaseUrl = "https://api.github.com/repos/Vencord/Installer/releases/latest"
-const InstallerReleaseUrlFallback = "https://vencord.dev/releases/installer"
+const ReleaseUrl = "https://api.github.com/repos/lovenory/Vencord/releases/latest"
+const ReleaseUrlFallback = "https://api.github.com/repos/lovenory/Vencord/releases/latest"
+const InstallerReleaseUrl = "https://api.github.com/repos/lovenory/Installer/releases/latest"
+const InstallerReleaseUrlFallback = "https://api.github.com/repos/lovenory/Installer/releases/latest"
 
 var UserAgent = "VencordInstaller/" + buildinfo.InstallerGitHash + " (https://github.com/Vencord/Installer)"
 
